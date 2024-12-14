@@ -15,6 +15,7 @@ app.get("/", (req, res) => {
 
 const db = require("./src/config/db");
 
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
